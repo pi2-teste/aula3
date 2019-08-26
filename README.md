@@ -57,6 +57,27 @@ Se o carro não tem o modelo definido, esse método retorna <br/>
 ### Tarefa 3 - Rodar testes
 3.1 Na classe Main, método main, habilite a chamada das funções <code>testar_atributos</code> e <code>testar_descricao</code>. Elas vão te ajudar a se certificar que fez a tarefa 1 corretamente. No momento, essas chamadas estão comentadas, com duas barras. Basta retirar as barras que as chamadas passam a estar "valendo".<br>
 
+Você também precisa habilitar as funções em si. Se você olhar na classe main,
+temos o seguinte:<br>
+```
+/*
+    public static void testar_atributos() {
+        Carro carro1 =  new Carro();
+        Carro carro2 =  new Carro();
+        carro1.setModelo("Fiat Uno");
+        assertEqual(carro1.getModelo(), "Fiat Uno");
+        carro2.setModelo("Ford Escort");
+        assertEqual(carro1.getModelo(), "Fiat Uno");
+        assertEqual(carro2.getModelo(), "Ford Escort");
+        carro2.setCor("prata");
+        assertEqual(carro2.getCor(), "prata");
+        System.out.println("Parabéns, o teste de atributos está correto!");  
+    }
+*/
+```
+
+Para usar essa função, você terá que remover os símbolos <code>/* </code> e <code>*/</code>, para que ela deixe de ser um comentário e se torne código.
+
 Se algo não estiver funcionando, você pode usar o depurador ou o JOptionPane para ver os valores das variáveis!
 
 ### Tarefa 4 - Gasolina
